@@ -61,7 +61,7 @@ Partial Class PrettyNumbersForm
         Me.Controls.Add(Me.CalculateButton)
         Me.Controls.Add(Me.ExitButton)
         Me.Name = "PrettyNumbersForm"
-        Me.Text = "Form1"
+        Me.Text = "PrettyNumbers"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
