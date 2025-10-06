@@ -4,6 +4,8 @@ Public Class PrettyNumbersForm
         Me.Close()
     End Sub
 
+
+
     Private Sub CalculateButton_Click(sender As Object, e As EventArgs) Handles CalculateButton.Click
         If InputTextBox.Text <> "" And IsNumeric(InputTextBox.Text) Then
             'get text from textbox1 and format in scientific notation using tostring method
